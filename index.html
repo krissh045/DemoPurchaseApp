@@ -935,13 +935,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</section>
 	<script>
-function data1(){
+$(".btn.btn-default.add-to-cart").click(function(){
+var a=$(this).text();console.log(a);
    digitalData ={pageInfo: {
                     pageName: "pcf:" ,
                     leadID: 'leadId', //"",
                     loginStatus: 'loginstatus',    //"Logged In" || "Non Logged In",
-                
-                }}
+ }
+}
+})
 </script>
 	<footer id="footer"><!--Footer-->
 		<div class="footer-top">
