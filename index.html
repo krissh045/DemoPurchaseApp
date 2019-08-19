@@ -51,18 +51,18 @@ dataLayer.push({
 }</script>
 
 <script>
-var digitalData;
-function data1(){
-digitalData = {
-                pageInfo: {
+var digitalData={}
+$(".btn.btn-default.add-to-cart").click(function data1(){
+var a=$(this).text();console.log(a);
+   digitalData ={pageInfo: {
                     pageName: "pcf:" ,
                     leadID: 'leadId', //"",
                     loginStatus: 'loginstatus',    //"Logged In" || "Non Logged In",
                 
                 }
-            };
 
-}</script>
+}
+})</script>
 </head><!--/head-->
 
 <body>
